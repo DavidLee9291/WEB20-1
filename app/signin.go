@@ -24,7 +24,7 @@ type GoogleUserId struct {
 }
 
 var googleOauthConfig = oauth2.Config{
-	RedirectURL:  "http://a215-182-208-92-36.ngrok.io/auth/google/callback",
+	RedirectURL:  "http://631a-182-208-92-36.ngrok.io/auth/google/callback",
 	ClientID:     os.Getenv("GOOGLE_CLIENT_ID"),
 	ClientSecret: os.Getenv("GOOGLE_SECRET_KEY"),
 	Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
